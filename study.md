@@ -18,7 +18,8 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+An SPA had parts of the page that will update when links are clicked. LIKE having viewports in autoCAD on your layout page.
+https://msdn.microsoft.com/en-us/magazine/dn463786.aspx
 ```
 
 ## Define "page" as used by non-developers
@@ -27,7 +28,7 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+When the the user says "page" they are refering to the overall page that has loaded and whats visible on the screen.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -37,5 +38,6 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+When a developer says View they are talking about what is currently visible. View-state is what is currently seen in that view if load fails what is it defaulting to.
+Front end routers are used to show what content when (like on a click) and where (float right).
 ```
