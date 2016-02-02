@@ -18,8 +18,16 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A SPA is a web app that loads a single page initally.  From then on each additional
+"view" is controlled by client intereaction without reloading the page.  The server
+responds to the client with the inital page load, and then responds to subsquent
+HTTP requests for data.
+
+
+  http://singlepageappbook.com/goal.html
+
 ```
+
 
 ## Define "page" as used by non-developers
 
@@ -27,7 +35,8 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+In my mind before I started to search for SPA's page ment what ever I was looking
+at on the screen.  If I clicked a button or link, it brought you to a new page.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -37,5 +46,9 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+From a developers point of reference, a view is a page.  Views are the HTML fragments
+that make up each "view".  A view state allows the storing of values between views.
+  A routers job is to allow the user to move from view to view by clicking menu items.
+  It allows you to navigate the app without going back to the 
+server.
 ```
