@@ -18,7 +18,7 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+It is a web application or site that fit on a single page with the goal of providing user experience similar to a desktop application. (https://en.wikipedia.org/wiki/Single-page_application)
 ```
 
 ## Define "page" as used by non-developers
@@ -27,7 +27,7 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+Page is like a single page.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -37,5 +37,6 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+View state is a state in which a viewer observing and studying.
+I don't know exactly what developer view state is.  I answer them based on logic, my logic.
 ```
