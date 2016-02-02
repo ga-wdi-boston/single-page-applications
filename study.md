@@ -18,7 +18,10 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+
+Single page applicatoin is either a web app or website that uses a single web page and can be dynamically updated.  All necessary components, html, css, js files are retrieved as a single page load as first.  The page can subsquentially be updated as needed, which mean that it is not necessary to completely reloading the html everytime.
+
+source: wikipedia, msdn
 ```
 
 ## Define "page" as used by non-developers
@@ -27,7 +30,9 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+Pages here usually mean a web documents that can be retrived from the web to your computer thru you webbrowser.  The web documents are usually written in html or other languages.  It contain all the informations, such as contents, style, scripts, that is necessary to represent a webpage.
+
+source: wikipedia
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -38,4 +43,6 @@ help manage view-state?
 
 ```md
 <!-- your answer here -->
+The view is the output representation of information, in this case, think of it as user interface generated from the html markup.  The viewstate store the parts of framework/data that is necessary to preserve the pages, but not necessary to be send back and forth to the API server.  So in SPA, view state will be the parts that is not being dynamically updated, but they are important to store as they are needed for the markup.  If we think of the router is facilitating "route" or communcation between the view on your computer and the url, it need to determine what information need or not needed to be send back and forth, so it basically determine and set the view state (?).
+
 ```
