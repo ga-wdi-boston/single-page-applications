@@ -18,7 +18,8 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+SPA's are web applicationas that load only 1 HTML page and dynamically updates information on the page to reflect the users interactions.
+-MSDN
 ```
 
 ## Define "page" as used by non-developers
@@ -27,7 +28,7 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+Users usually confuse "page" with a "website". Before increasing my knowledge of web development, I was using "page" and "website" interchangeably.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -37,5 +38,5 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+The view and view-state are refrences to the MVC pattern(Model-View-Controller). This pattern is a model and design pattern for SPAs.
 ```
