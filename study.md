@@ -47,5 +47,6 @@ help manage view-state?
 ```md
 The view renders the contents of the model or data that is being presented.  It then
 provides buttons and other widgets to interact with the model.  The view state is the
-method used to preserve page and control between round trips.
+method used to preserve page and control between round trip exchange of information or data.  Front end routers allows
+SPA's to track the location and state of users as they navigate their way around libraries.
 ```
