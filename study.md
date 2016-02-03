@@ -18,7 +18,13 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A single page application is web application that dynamically updates the page when a user
+interacts with the app.  The page does not need to reload everytime a change is made
+on the page.  Instead data is sent over to the server and stored whille the web app is running.
+The thoery of architecture is beyond my scope for now.  I know most predominantly use AJAX
+to send JSON data back and forth, while some implement Model View Controller infrastructure.
+
+https://msdn.microsoft.com/en-us/magazine/dn463786.aspx
 ```
 
 ## Define "page" as used by non-developers
@@ -27,7 +33,9 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+
+What a page meant to me was the current website that the user is on at the moment.
+
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -37,5 +45,7 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+The view renders the contents of the model or data that is being presented.  It then
+provides buttons and other widgets to interact with the model.  The view state is the
+method used to preserve page and control between round trips.
 ```
