@@ -24,7 +24,8 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Single-page applications are web applications which update dynamically based on
+user input, using AJAX and HTML5 to update content without constant page reloads
 ```
 
 ## Define "page" as used by non-developers
@@ -33,7 +34,10 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+When I user says "page", I think they are refering to the experience that happens
+between clicking links. The "page" may dynamically update data dozens of times
+using ajax, but if there was only one page load, it will still be considered one
+"page" according to the average user.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -43,7 +47,9 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+Apparently the view-state is a method of data control between callbacks, which
+stores the data in hidden fields on the page itself. I have a feeling I did not
+find the correct definition...
 ```
 
 ## Define the advantages of an SPA over a traditional application
