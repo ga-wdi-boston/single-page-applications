@@ -24,7 +24,10 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+An SPA is a website or web app that loads all needed files on the first page
+load, with navigations to other 'pages' essentially just calling for additional
+content to be revealed rather than communicating with the server. From that
+first pageload, all future content is loaded dynamically.
 ```
 
 ## Define "page" as used by non-developers
@@ -33,7 +36,9 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+Non-dev users would call a 'page' a distinct section of the site with content
+that's differentiated from other 'pages'. As a novice developer, I would've said
+a page is an independent call to a server for new content.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -43,7 +48,11 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+To developers, the view refers to the portion of the app that is client-facing.
+The 'view-state' is the condition of a given view, which may be modified by
+the client. Front-end routers take requests from the client and asynchronously
+direct them to the server, allowing for modularized parts of the view to be updated
+dynamically.
 ```
 
 ## Define the advantages of an SPA over a traditional application
