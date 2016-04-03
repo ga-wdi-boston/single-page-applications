@@ -24,7 +24,9 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A SPA is a single page application, that only loads the html once.
+AJAX is used to retrieve info from the server, but the all visual changes
+to the page happen through javscript interacting with the HTML and css.
 ```
 
 ## Define "page" as used by non-developers
@@ -33,7 +35,9 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+Page by non-developers is usually referring to a particular state of a app
+or website on the screen. When I load NYT's website, the page is everything I
+see when it first loads.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -43,7 +47,10 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+View refers to what a user can see and interact. It is a
+combination of the effects of all your code. Veiw-state is the current state
+of the application given all the past events/data that has been altered/passed
+to it.
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -51,7 +58,8 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+It makes the user experience more similar to that of a desktop applicaton. Its
+more intuitive for Users. It also doesnt require frequent page loads.
 ```
 
 ## List some technologies used to make SPA's
@@ -59,5 +67,5 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+Some tools are AngularJS, Ember.js, Meteor.js, ExtJS, React, Ajax, and websockets.
 ```
