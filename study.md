@@ -24,7 +24,10 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A SPA is a web application that exists on a single web page, which manipulates
+HTML and CSS elements using JS/jQuery/Ajax for a smooth user experience, rather
+than sending POST requests ti the server, resulting in page refreshes.  I consulted
+the first two readings for this answer.
 ```
 
 ## Define "page" as used by non-developers
@@ -33,7 +36,8 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+Users usually refer to a "page" as a single URL that they stay on - that's what
+thought as well.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -43,7 +47,8 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+From what I gather, 'view' is the current status of a SPA, and view-state is related to ASP.NET.  It preserves page and control values between the client and server.  Routers can help by
+saving some/all of the application state, rather than the server or client.
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -51,7 +56,9 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+Does not necessitate page refreshes - behaves like a native (offline) app
+State-management is performed client-side, taking pressure off of your server(s)
+
 ```
 
 ## List some technologies used to make SPA's
