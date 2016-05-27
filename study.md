@@ -26,6 +26,9 @@ relevant sources you consulted in your search.
 ```md
 <!-- your answer here -->
 A SPA is a Single Page Application. Meaning the whole applications runs on one url.
+
+
+e.g http://gotruemotion.com/
 ```
 
 ## Define "page" as used by non-developers
