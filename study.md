@@ -25,6 +25,7 @@ relevant sources you consulted in your search.
 
 ```md
 <!-- your answer here -->
+A SPA is a Single Page Application. Meaning the whole applications runs on one url.
 ```
 
 ## Define "page" as used by non-developers
@@ -34,6 +35,7 @@ your search to define SPAs?
 
 ```md
 <!-- your answer here -->
+Page is used to refer to a webpage. To a certain view. If you click on a tab and then the browsers leads you to a different section e.g. "How to contact company Y", this is considered a page inside of the webpage.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,6 +46,9 @@ help manage view-state?
 
 ```md
 <!-- your answer here -->
+
+The ASP.NET page framework is a scalable programming model that you can use on the server to dynamically generate Web pages.
+View state is the method that the ASP.NET page framework uses to preserve page and control values between round trips. When the HTML markup for the page is rendered, the current state of the page and values that must be retained during postback are serialized into base64-encoded strings.
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,6 +57,10 @@ What are the advantages of a single page application over a traditional applicti
 
 ```md
 <!-- your answer here -->
+- application is more app like -->
+- A SPA doesnt need to reload the entire page everytime the client communiacates with the server
+--> leads to a more fluid and more responsive application
+- server and client are working independent
 ```
 
 ## List some technologies used to make SPA's
@@ -60,4 +69,5 @@ What are some of the tools used to create single page applications?
 
 ```md
 <!-- your answer here -->
+AJAX, HTML5, JavaScript, CSS
 ```
