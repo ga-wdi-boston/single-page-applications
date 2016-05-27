@@ -47,8 +47,8 @@ help manage view-state?
 ```md
 <!-- your answer here -->
 
-The ASP.NET page framework is a scalable programming model that you can use on the server to dynamically generate Web pages.
-View state is the method that the ASP.NET page framework uses to preserve page and control values between round trips. When the HTML markup for the page is rendered, the current state of the page and values that must be retained during postback are serialized into base64-encoded strings.
+The view state is a method from a framework (ASP.NET). This framework can be used on SPA webpages. The framefork saves all the front end stuff (HTML) during the server works.
+
 ```
 
 ## Define the advantages of an SPA over a traditional application
