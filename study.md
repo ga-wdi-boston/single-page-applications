@@ -23,8 +23,10 @@ becoming a web developer, this might make a good article.
 In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
-```md
-<!-- your answer here -->
+```md A SPA is a single page application, where all of the updating is handled
+by the client-side using Javascript, instead of loading a new page from the
+server.
+
 ```
 
 ## Define "page" as used by non-developers
@@ -32,9 +34,8 @@ relevant sources you consulted in your search.
 What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
-```md
-<!-- your answer here -->
-```
+```md a page is what can be seen in the browser screen without the
+browser reloading again. Before reasearching I would have said a page is anything with a unique URL (www.blahblah.com/page.html) ```
 
 ## Define "view" and "view-state" within the context of SPAs
 
@@ -42,8 +43,11 @@ What do developers mean when they say "view"? Since view can have many meanings,
 what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
-```md
-<!-- your answer here -->
+```md view: the current output of the SPA (what is on the screen)
+view-state: what has or can change on the SPA.
+The routers manipulate the HTML to change the view to different view states
+when information is relayed back from, for example, AJAX requests.
+
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -51,7 +55,8 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+A single page application works more like a native app than a website, which
+makes for a better user experience.
 ```
 
 ## List some technologies used to make SPA's
@@ -59,5 +64,4 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
-```
+AJAX, HTML5, AngularJS, jQuery```
