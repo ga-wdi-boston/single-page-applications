@@ -25,7 +25,10 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+<!-- SPA stands for 'single page application. Which means a web page that doesn't
+refresh the page when requesting information.
+https://msdn.microsoft.com/en-us/magazine/dn463786.aspx
+-->
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +37,10 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+<!-- For user's a page is whatever takes up the whole screen on a browser.
+Before I leanred about SPAs a page was whatever on the screen that I didn't have
+to click to get to (not including menus and dropdown boxes.).
+https://johnpapa.net/pageinspa/ -->
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +50,12 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+<!-- A view a 'slice' of a website that a developer can show or hide w/o refreshing the page.
+a view state are the values that need to be retained during postback.
+The router manages what gets sent to a client when they change views.
+
+https://johnpapa.net/pageinspa/
+https://msdn.microsoft.com/en-us/library/bb386448.aspx -->
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +63,9 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+<!-- A SPA site feels more smooth and fluid than a traditional site b/c the client
+doesn't have to refresh the page at every link.
+-->
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +73,9 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+<!-- Angular.js, Ember.js, and Meteor.js are some exapmles for Javascript framworks.
+Ajax and JQuery are used together to make SPAs.
+Websockets, Server-sent Events, Server Architecture (thin and thick).
+
+https://en.wikipedia.org/wiki/Single-page_application-->
 ```
