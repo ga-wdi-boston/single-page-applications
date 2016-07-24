@@ -25,7 +25,9 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+SPA is an acronym for Single Page Applications. This means that the app or
+website uses a single HTML template and upadates as the user interacts with the
+website by relying heavily on AJAX/javascript.
 ```
 
 ## Define "page" as used by non-developers
@@ -52,7 +54,9 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+SPA does not rely on the page relaoding for data to be sent, instead by the SPA
+interacting with AJAX and sending the data as JSON. You can change the HTML
+indenpendentally and the UI independentally as well.
 ```
 
 ## List some technologies used to make SPA's
