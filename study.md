@@ -25,7 +25,9 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+SPA is an acronym for Single Page Applications. This means that the app or
+website uses a single HTML template and upadates as the user interacts with the
+website by relying heavily on AJAX/javascript.
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +36,10 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+Page for non-devlopers mean when a view is refreshed, and different content
+appears on the screen. To me page is the same thing as the HTML that reflects it
+so if there is only one HTML file, that is one page. If there are mutiple templates
+or layouts then there are multiple pages.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +49,11 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+View state is what is currently displayed on the page. Specifically in relation to the
+layout/html, which is the view. The front end routers is what tells the the
+brower when to go to that content view, what is displayed there. For example the
+difference between logging in and changing your password would have two different
+routers declared.
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +61,9 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+SPA does not rely on the page relaoding for data to be sent, instead by the SPA
+interacting with AJAX and sending the data as JSON. You can change the HTML
+indenpendentally and the UI independentally as well.
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +71,7 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+some of the frameworks used to improve fluidity and responsiveness are:
+ember, angularJS, Meteor.js, ExtJS and React, These are all listed on Wiki for
+doing so.
 ```
