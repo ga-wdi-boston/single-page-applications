@@ -41,8 +41,8 @@ your search to define SPAs?
 
 ```md
 
-What loads within the browser window when you visit a specific URL; a single
-"view.
+What loads within the browser window when you visit a specific URL / a single
+"view."
 
 Citation: SPA and the Single Page Myth
 
