@@ -25,7 +25,15 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A SPA is a website or application that does not reload when new information is
+presented from the client (that is to say that it does not
+require the server to provide further information). For instance, when a user inter-
+acts with the client (like signing into the app), the client will communicate
+with the server to retrieve stored log-in information, but the page will never
+reload. The purpose of a SPA, when implemented correctly, is to provide a more
+fluid and efficient experience for the user.
+
+Sources: links above.
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +42,11 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+Many non-developers probably refer to "page" as the single screen that they are
+looking at while using an application, whether it reloads/refreshes or not. Some
+may even refer to a page as an entire set of pages within an entire website. I
+think I generally thought of a page as the single screen, but I never thought that
+a reloaded page would be considered to be another page all together.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +56,20 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+The view is any other page (besides the original single page we send the server)
+within an application. For instance, a retail website may have different "views"
+for mens clothing, womens clothing, and the shopping cart. Views typically serve
+as their own function and should be able to operate on their own when placed in
+a different context.
+
+"View-state" is when those views come into play - you can
+have multiple views working side by side on one screen.
+
+Front-end "routers" allow users to move to different views or menu items within
+an application and helps store browsing history for the user.
+
+sources: https://developer.mozilla.org/en-US/docs/Web/API/History_API
+https://johnpapa.net/pageinspa/
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +77,11 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+SPAs can be more fluid and can be built to only require new information as it is
+needed. Traditional applications can take longer to load, require multiple
+refreshes when moving between views, and can limit maintenence of browser history.
+
+sources: links above
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +89,9 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+There are several JavaScipt frameworks, including AngularJS, Ember.JS, and Meteor.JS;
+AJAX, Websockets.
+
+sources:
+https://en.wikipedia.org/wiki/Single-page_application
 ```
