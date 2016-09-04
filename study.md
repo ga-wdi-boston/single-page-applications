@@ -80,6 +80,8 @@ What are the advantages of a single page application over a traditional applicti
 SPAs can be more fluid and can be built to only require new information as it is
 needed. Traditional applications can take longer to load, require multiple
 refreshes when moving between views, and can limit maintenence of browser history.
+
+sources: links above
 ```
 
 ## List some technologies used to make SPA's
@@ -87,5 +89,6 @@ refreshes when moving between views, and can limit maintenence of browser histor
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+There are several JavaScipt frameworks, including AngularJS, Ember.JS, and Meteor.JS;
+AJAX, Websockets.
 ```
