@@ -67,6 +67,9 @@ have multiple views working side by side on one screen.
 
 Front-end "routers" allow users to move to different views or menu items within
 an application and helps store browsing history for the user.
+
+sources: https://developer.mozilla.org/en-US/docs/Web/API/History_API
+https://johnpapa.net/pageinspa/
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -74,7 +77,9 @@ an application and helps store browsing history for the user.
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+SPAs can be more fluid and can be built to only require new information as it is
+needed. Traditional applications can take longer to load, require multiple
+refreshes when moving between views, and can limit maintenence of browser history.
 ```
 
 ## List some technologies used to make SPA's
