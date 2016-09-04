@@ -25,7 +25,12 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A SPA is a website or application that does not reload when new information is
+presented from either the client or the server. For instance, when a user inter-
+acts with the client (like a signing into the app), the client will communicate
+with the server to retrieve stored log-in information, but the page will never
+reload. The purpose of a SPA, when implemented correctly, is to provide a more
+fluid and efficient experience for the user. 
 ```
 
 ## Define "page" as used by non-developers
