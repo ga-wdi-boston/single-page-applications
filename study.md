@@ -30,7 +30,9 @@ presented from either the client or the server. For instance, when a user inter-
 acts with the client (like a signing into the app), the client will communicate
 with the server to retrieve stored log-in information, but the page will never
 reload. The purpose of a SPA, when implemented correctly, is to provide a more
-fluid and efficient experience for the user. 
+fluid and efficient experience for the user.
+
+Sources: links above.
 ```
 
 ## Define "page" as used by non-developers
@@ -39,7 +41,11 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+Many non-developers probably refer to "page" as the single screen that they are
+looking at while using an application, whether it reloads/refreshes or not. Some
+may even refer to a page as an entire set of pages within an entire website. I
+think I generally thought of a page as the single screen, but I never thought that
+a reloaded page would be considered to be another page all together.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
