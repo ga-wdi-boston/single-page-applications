@@ -25,7 +25,10 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A SPA is a single page application. All the elements required for the application
+load on the initial page load. The site can be interactive without having to reload the page.
+
+I used the MSDN and Wikipedia articles.
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +37,9 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+A page to users is what loads when you type in a url into the browser and what
+loads when you click an element on that page.
+
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +49,10 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+View refers to anything the user sees. Front end routers connect different views
+on a single page and allow users to navigate between them.
+
+I used the SPA and Single Page Myth article.
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +60,10 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+Advantages include not needing to reload the page after communicating with the server, making the experience better for the user, and the ability to separate the
+visuals of the site(HTML) from the logic (Ajax), making it easier to modify.
+
+I used the MSDN reading.
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +71,16 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+Javascript frameworks including Angular JS, Ember.js, and Meteor.js
+
+Ajax - Browsers can send and recieve data automatically without interfereing
+with the display of the page in the browser.
+
+Websockets - a realtime client-server communication tool.
+
+Server-sent event - also a client/server communication tool. The server can initiate
+an event.
+
+I used the wikipedia page.
+
 ```
