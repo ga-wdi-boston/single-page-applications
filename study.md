@@ -25,7 +25,19 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A SPA, or "Single-Page Application", is a web application that starts by loading
+a single page from an HTML object provided by the server. Thereafter, all
+updates to the user interface are made on the client side. Even if the entire
+view changes in a way the user would colloquially refer to as a "new page", this
+is actually done without requesting a new HTML document from the server;
+instead, the client interprets the user's request within the context of its own
+logic and updates the view accordingly. It may do this by requesting new
+resources from the server, but the server provides the necessary data in the
+form of a JSON string, rather than in markup that explicitly defines a new page.
+
+Sources:
+-John Papa, "SPA and the Single-Page Myth" [https://johnpapa.net/pageinspa/]
+-Mixu, "Modern web applications: an overview" [http://singlepageappbook.com/goal.html]
 ```
 
 ## Define "page" as used by non-developers
@@ -40,7 +52,6 @@ new URL, or otherwise "navigating away". Scrolling down meant I was still on the
 same page, clicking a button that brought up new information could mean I was
 still on the same page, but anything that made the whole window change meant
 that I was now on a different page.
-
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -50,7 +61,23 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+"View", in developer language, comes close to what the lay user means when they
+refer to a 'page'. A view is any distinct part of the page, whose content or
+activity can be functionally distinguished from other parts of the page. A view
+may occupy part or all of the browser window.
+
+"View-state" refers to the set of values that define a view.
+
+"Routers" interpet user-generated events (entering data in form fields, clicking
+buttons, hitting 'play' on a video) and update the view-state accordingly. The
+router may do this by initiating a server request for the necessary resource(s),
+or by accessing relevant data from the cache.
+
+Sources: -John Papa, "SPA and the Single-Page Myth"
+[https://johnpapa.net/pageinspa/]
+-Abhijit Jana, "Beginner's Guide to View State"
+[http://www.codeproject.com/Articles/31344/Beginner-s-Guide-To-View-State]
+
 ```
 
 ## Define the advantages of an SPA over a traditional application
