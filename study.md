@@ -25,7 +25,9 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A single-page application, or SPA, is a web app that only loads _one_ HTML page,
+and then dynamically updates that page with new information from the server based
+on the user's interactions, without ever refreshing that main HTML page.
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +36,11 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+Most users would define "page" as the HTML they see when they load a website. If
+that HTML changes (eg if we type a different word in the search bar on Google),
+the user would be inclined to say the _page_ changed, even if it only dynamically
+updated and never refreshed. This is about how I would have defined it before we
+started learning about this anyway!
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +50,20 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+'Views' are another word for bits of HTML that make up what the user usually
+calls 'pages'. These HTML bits typically have their own distinct set of functionality,
+and mutliple 'views' can be visible on a single page at time (a nav bar 'view',
+a content 'view', a sidebar 'view'...)
+
+The view-state, then, is any particular assembly or combination of views, that can
+be represented in the URL path (sometimes, though they can be too long for a URL).
+I think. This is the best definition I could come up with, even with Google at my side.
+
+The front end 'routers' take the URL from a button click and translate it
+into a 'view' to be displayed.
+
+Resource: http://www.c-sharpcorner.com/UploadFile/225740/what-is-view-state-and-how-it-works-in-Asp-Net53/
+
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +71,13 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+One huge advantage is that SPAs don't have any page refreshes, meaning they offer
+a much smoother experience for the user, as well as cutting down on any server-side issues.
+They also let developers seperate the design of the site from the logic, meaning
+we can rewrite the design without worrying the functionality will be too adversely affected.
+Finally, as part of this seperation, both the front end or the back end can be entirey
+rewritten and redesigned, but as long as the API stays the same, the functionality will
+not be affected.
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +85,5 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+Ember.js, Angular.js, ASP.NET, Node.js
 ```
