@@ -25,7 +25,8 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+SPA pages use a single page HTML doc to create a fluid page as the user interacts
+with the page without refreshing. This is done with AJAX and HTML5.
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +35,9 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+It was a single page(i.e html doc) of a website. Users will define a web page as a
+single page. They would consider a single page to be basic and simple while I can
+be very complex and rebust. 
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +47,9 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+View is the observable view of a particular site. View state is the "view" that
+should be displayed with a particular URL. This is very cpmplicated with a SPA
+since many different views can be seen/rendered on the same URL.
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +57,8 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+Visually the page will be more fluid since there is no refreshing needed. As far
+as builidng the site it will be easier because AJAX and JSON are separate
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +66,5 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+AJAX, Ember.js, Knowckout.js, HTML5, Backbone, Angular, Dojo, JS MVC
 ```
