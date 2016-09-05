@@ -34,7 +34,13 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+Before starting this study, I thought of a "page" as consisting of all the
+information I could reach in my web browser without clicking a link, entering a
+new URL, or otherwise "navigating away". Scrolling down meant I was still on the
+same page, clicking a button that brought up new information could mean I was
+still on the same page, but anything that made the whole window change meant
+that I was now on a different page.
+
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
