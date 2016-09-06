@@ -25,7 +25,12 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+SPA is a single page application that is a strategy in which a web app or website has a more fluid and responsive UI, similar to a desktop app, where the page does not constantly refresh each time an event occurs. With a SPA, all of the code is generated in a single page load. The server and the client work independently and the client is in charge of firing off events as the user makes them on the page.
+
+I used the following required readings:
+https://johnpapa.net/pageinspa/
+https://en.wikipedia.org/wiki/Single-page_application
+
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +39,7 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+For a non-developer, a page would be defined as the current screen the user is on or would like to navigate to on a website. (i.e. "Go to the view my cart page to see everything I want to purchase.")
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +49,9 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+A common misconception with SPAs is that they are a single page, however SPAs can support many other pages. These 'other pages' are called views. Additionally everything a user sees is considered a view. When a view takes up the entire screen that is considered a page since it grabbing the user's full attention.
+
+View state is the client-side mechanism for managing the stored data between roundtrips to the server. The router helps get the user from view A to view B via menu items in the browser. If the view is not stored in memory or ever been seen before the app will make a request to retrieve the resources for that view.
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +59,7 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+SPAs allow for a more fluid and responsive UI experience since it doesn't always need to refresh the page when events occur. Another advantage is the architecture of the app. Since the client and server work independently, this allows for more flexibility in terms of building out different layers of the app. In an ideal situation, you can edit the HTML without touching the code that implements the logic.
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +67,5 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+Angular, Ember and React
 ```
