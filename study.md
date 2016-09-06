@@ -25,7 +25,12 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+  A SPA is a single page application, meaning. After the page loads, there
+  won't need to be any refreshing because the interaction with the server will
+  happen seemlessly through AJAX calls and JSON returns to the webpage. Once the
+  user arrives at the page they will not be require to do any navagiation that
+  refreshes their web browser or changes the path in the url.
+  (msdn single page applications).
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +39,10 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+  A user says 'web page' to describe a subsection of a website.  It is usually
+  used in conjuction witht the content or purpose of the page.  ie 'Home-page',
+  'log-in page' and so on.  I would pretty much mean the same thing before now
+  to a certain degree.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +52,11 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+I am still not totally clear on this but I think they are referring to what
+non-developers would refer to as pages. The view is what content is currently on
+the app page. So while you are still on the same page, your view state could
+change from pre-login view state to logged in view state.  It is what the page
+looks like based on the prior actions of the user.
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +64,9 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+An SPA will be more fluid than a tradational application.  You won't need to
+refresh the page to see changes and the page won't be re-rendering in an
+intrusive way when the page refreshes in the background.
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +74,5 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+  JSON, AJAX, HTML, CSS, Knockout.js, Ember.js and JavaScript.
 ```
