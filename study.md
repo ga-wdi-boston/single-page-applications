@@ -25,7 +25,8 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+<!-- SPA is a single html webpage which dynamically response to user interaction.
+It does not require mutiple pages layout like traditional websites. Source ~ MDSN  -->
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +35,8 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+<!-- A page is a section of a website. Traditional websites have a home page
+that links the user to different sections/pages of a website.  -->
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +46,10 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+<!-- View is the current state of the webpage being displayed. The state of the
+webpage changes depending on the type of events or user interaction. These  view
+states are vital to a single page dynamic website. Front-end routers help manage
+view-state by regulating how users navigate different view-states of a website.  -->
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +57,10 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+<!-- Single page applications result in faster load times and smoother user
+interaction, because it does not require a full page refresh to navigate.
+With the SPA and view-state model, only content that needs to be changed will
+be altered on the same page. -->
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +68,5 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+<!-- Knockout.js and Ember.js library -->
 ```
