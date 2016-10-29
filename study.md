@@ -46,7 +46,7 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-Views are sort of like going to other pages. Whenever the client makes changes to the application that changes the view.
+Views are sort of like going to other pages. Whenever the client makes changes to the application that changes the view. View state is what is currently happening in the current view. The router is what allows the user to change views while in the browser
 ```
 
 ## Define the advantages of an SPA over a traditional application
