@@ -25,7 +25,7 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A typical web site summons a resource from the server (like a another html page), it is returned to them and rendered. With SPA's all available information and changes in styles are preloaded and maniplutated without reload.
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +34,7 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+"Page" is typically reffered like a home page. An html document poplated by various elements and hyperlinks that will take you to other html pages that need to be summoned and rendered everytime a request is made
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +44,7 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+<!-- The term "views" to developers means "web-page" to everyone else. A home page is a view and a order summary page is also a view. "View_state" is the state of the page once it is rendered by the browser. It can preserve user information.-->
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +52,7 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+Delivers a more fluid user expierence. More people can access your site simulatelously.
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +60,5 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+<!-- Angular JS, Backbone JS and Jquery. -->
 ```
