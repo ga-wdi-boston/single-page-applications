@@ -25,7 +25,7 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+From my understanding of the MSDN article, it seems that and SPA is a web format that involves a single HTML page which updates dynamically through ajax requiests and json respnses. This has a number of benefits including offloading a bunch of work on to the client side, separating the page and the logic so that the front end and back end can be modified independantly of one another, and offering a smoother end user experience which doesn't require page reloads.
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +34,7 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+When a user says 'page', they typically mean a set view in the browser that contains content specific to that 'page'. A user typically thinks of ay significant change to the content in the browser as navigating to a new page.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +44,7 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+'View'is meant to mean anything being displayed on the browser at any given time. Front end routers help to connect the content on the client side, with data on the server side through ajax requests.
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +52,7 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+A single page applications will be more modular, easier to update, and a more fluid experience for the client.
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +60,5 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+SPA's often utalize javascript frameworks, ajax, websockets, and json. These tools combine to manage the client side application and connect it to the server side content.
 ```
