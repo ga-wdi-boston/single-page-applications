@@ -25,7 +25,10 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+SPA is like a... functioning web-site shell.  It allows the page to feel dynamic while
+not becoming too complicated or bogged down.  It also allows pages to look, feel and act similar (because they are similar) while still allowing content to change within the boundaries of the page as needed or as requested (meaning in response to actions).
+
+cite: wikipedia, https://johnpapa.net/pageinspa/
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +37,8 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+I would have said that users mean a page is, a page.  A single entity.  But I'd say
+now that a page can really mean the parent in a website.  Maybe not that black and white, but the elements or substance of a 'page' might contain many other pages (links, actions, etc).
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +48,7 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+Wow.  A lot of confusing information on this one.  People seem to have some very strong opinions on it.  Looks like view means just what it sounds like.  Looking at a web page.  View-state means....how the web page looks between loads?  Or in the state between passing/executing data?  I think.  Things like cache, cookies, java, help manage the view-states by storing data locally.
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,13 +56,12 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
-```
+SPAs will typically load faster and provide a more structured, similar look and feel.  They are not really compatible with search engines, though it looks like there some workarounds to that.  Loading back pages can be difficult, as the pages typically load the basecode of the SPA, but it looks like there are workarounds to that too.  Seems like, with most WEBDEV stuff, best to use SPAs when appropriate, and use something else when SPAs won't quite do or you have to keep writing in workarounds.```
 
 ## List some technologies used to make SPA's
 
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+Javascript, Ruby, html, other languages.  Servers play a big part in helping maintain the DOM.  I might be misunderstanding the question.  My answer would be...everything, or mostly everything can be put into SPAs, depending on how you do it.
 ```
