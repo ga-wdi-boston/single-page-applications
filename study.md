@@ -25,7 +25,7 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+	Single page applications are web apps with a single page of html and are able to retrieve all of the html, css, and javascript in one page load rather than multiple.
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +34,7 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+It’s a single web page of html that the server ends up sending to the browers when the application starts running. This page is the starting point for loading the app. The page visually commands all of the user’s attention and it usually takes up the entire screen.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +44,7 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+The bits of html that are the other pages, for SPA, this is everything that a user sees.
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +52,7 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+Traditional apps need to render a new page every single time the app calls the server. SPA loads with all of the interaction happening through AJAX requests, which return data in JSON, then updates the page without having to reload it. SPA makes apps more responsive without having to continuously reload since the client and the service are independent. The separation between AJAX and HTML makes the app easier to design and edit for each layer.
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +60,13 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+Ember
+Javascript
+Html
+AJAX
+API
+Jquery
+Sass
+Css
+
 ```
