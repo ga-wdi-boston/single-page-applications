@@ -25,7 +25,7 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+An SPA is a web app which relies on a skeleton html code which it loads once and then dynamically alter based on user actions.
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +34,7 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+In layperson's terms, a "page" is essentially just any sufficiently different set of things on the web broswer, generally considered to change when things are clicked.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +44,7 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+A "view" as used by developers is in many ways what non-developers mean by "page": the distinct set of things being rendered by the browser window. A view-state is a way to differentiate between various different render states that are similar enough to fall under the same view but have minor differences (perhaps a menu is open or closed). Routers, as I understand them, direct certain url paths to handle certain actions, so that view-states can be easily accessed directly from a URL, and the necessary resources can be served to the client as needed.
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +52,7 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+A single page application is faster to load and doesn't require long and complicated URLs to be able to bookmark and get back to virtually the same place ou were when you left.
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +60,5 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+Ember, Angular, Ajax and websockets, among others (ajax and ember are two of a number of libraries that serve the same function).
 ```
