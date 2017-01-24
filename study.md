@@ -60,5 +60,5 @@ One of the biggest advantages of a SPA is that most of the work is handled clien
 What are some of the tools used to create single page applications?
 
 ```md
-One of the most important tools used to create a single page application is the DOM.  The DOM allows the HTML on the page to be modified by Javascript and CSS which allows the SPA to look drastically different in different view-states even though the core HTML remains the same.  Ajax requests are another important tool because they can obtain the resources from the server that the client needs in order to make the changes the app needs for each view-state.
+One of the most important tools used to create a single page application is the DOM.  The DOM allows the HTML on the page to be modified by Javascript and CSS which allows the SPA to look drastically different in different view-states even though the core HTML remains the same.  Ajax requests are another important tool because they can obtain the resources from the server that the client needs in order to make the changes the app needs for each view-state.  Ember.js and Angular.js are other JS frameworks that allow the dev further ability to make effective and functional SPAs.
 ```
