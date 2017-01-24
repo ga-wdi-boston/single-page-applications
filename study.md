@@ -35,7 +35,7 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-The users mean the page is a completely new style webpage. Before I started my search,
+The users mean the page is a webpage with information in the browser. Before I started my search,
 a page means a html file.
 ```
 
@@ -47,7 +47,7 @@ help manage view-state?
 
 ```md
 The view is markup which display model. It allowed ruser sebd updated input to view
-model.
+model. View-state is a method uses to preserve page and control value.
 ```
 
 ## Define the advantages of an SPA over a traditional application
