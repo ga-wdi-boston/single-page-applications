@@ -25,7 +25,10 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+SPA stands for Single Page Application. Its in a web application that serves and initail HTML template and then dynamically updates the view/UI based on user action as well as data that is passed and returned from the
+server.
+
+MSDN Single Page Applications
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +37,10 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+A page was one view that would see in an application every time that you
+changed the UI that seemed to be a new page.
+
+SPA and the Single Page Myth
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +50,9 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+Views are just HTML fragments that have a distinct purpose and distinct functionality. View-states are versions of the SPA URL. routers allow us to jump from one view to another in the app given a URL without making calls to the server
+
+SPA and the single page myth as well as Modern Web Applications
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +60,9 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+It allows developers to create fluid and responsive wep apps without having to continuously make calls to the server
+
+MSDN Single Page Applications
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +70,5 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+Angular.js Ember.js React AJAX JSON
 ```
