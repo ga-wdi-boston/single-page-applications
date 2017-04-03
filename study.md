@@ -25,7 +25,12 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+SPA is a single page application.  It means that when the first call is asked of
+the server that it is sent back to the client with everything needed to run the
+application.  Another complete rendering of the page is not needed.
+All sources were relevant.  Quite honestly the johnpapa.net resource was the
+easiest to understand in it's entirity.  But I have a feeling all the resources
+will be helpful in the future.
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +39,8 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+I thought single page was just refering to everything being on one webiste page.
+Did not realize it also meant that it completely loaded the first time.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +50,9 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+View is what is currently rendered on the page.  View state is what is initially loaded
+and then subsequent views as the client does it's magic.
+The router helps to manage the application state or views.
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +60,8 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+Provides a user experience similar to a desktop application.  Also does not
+require subsequent round trip from UI to server to get HTML.
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +69,5 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+Ember, AngularJS, Meteor.js
 ```
