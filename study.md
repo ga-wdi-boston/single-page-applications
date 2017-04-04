@@ -25,7 +25,9 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A SPA is a web application that loads a single HTML page from the server and
+dynamically changes its user facing view depending on the user's activity on
+the page.
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +36,10 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+When Non-developers/users say "page, they mean a distinct looking page on the web.
+I saw pages like this too. Users use that word in a conceptual way. Developers
+are very literal. A meaning word like "page" tends to be understood in its
+literal, technical context-- for instance, any file that has the extension .html
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +49,13 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+The user's understanding of a "page" translates directly to the developer's
+concept of a view. With single page apps, the user's "pages" are just
+different "views" supported in the single HTML.
+
+I think view-state is a snapshot of what the view looks like with all the
+applicable data. Users expect their applications to automatically work with
+their browser's back button and forward button (front-end "routers").
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +63,10 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+SPAs are more responsive. In older apps where each view was an HTML file
+on a server, rendering those pages required a roundtrip call to the server.
+Single page apps don't need to do that since the initial page is all it needs.
+
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +74,5 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+html5, css, javascript, ajax
 ```
