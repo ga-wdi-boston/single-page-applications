@@ -25,7 +25,7 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A SPA is an application thats HTML is loaded into the browswer once and then the client manipulates the functionality and views without having to send another http request.
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +34,7 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+To non developers page is anything you see on your screen. This study is a page in the github repo for example. I thoguht this way until I started WDI
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +44,7 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+View is the differnt sizes you see for the app your using. The view-state is the current veiw your seeing and the router is a tool that allows you to move thru view-states.
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +52,9 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+The advantages of a SPA over a tradtional app are:
+There only needs to be one http request making the app feel faster
+You only need to have one page of HTML
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +62,5 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+ JSON, HTML, JavaScript, CSS, router
 ```
