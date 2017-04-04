@@ -25,7 +25,7 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Single-Page Applications (SPAs) are Web apps that load a single HTML page and dynamically update that page as the user interacts with the app. SPAs use AJAX and HTML5 to create fluid and responsive Web apps, without constant page reloads.
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +34,7 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+When most users talk about a "page", they are referencing an HTML page. Prior to researching SPAs, I also meant an HTML page. However, after learning more about SPAs I've come to realize that many applications actually use a singular HTML file, populated with different data from AJAX calls in order to give the effect of multiple pages. Hence, a page can be defined as "the totality of whatever occupies the four walls of the application UI".
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +44,7 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+When developers talk about 'views', they are talking about what typical users might refer to as 'screens' or 'pages'. 'View-states' is a term used to describe the data from the model that is being displayed to the user at any given time. Front-end routers manage view-state by responding to user inputs, and directing them to the appropriate view.
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +52,7 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+Codebase is easier to maintain, results in more modular/reusable pieces of code, handles small changes in state better, enforces better separation of concerns, more easily testable, more performant after initial page load, runs on a variety of platforms, devices, and browsers...
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +60,5 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+AJAX, HTML, AngularJS, ReactJS, Ember.js, Meteor.js, ExtJS, Vue.js, Durandal.js, Backbone.js, Mithril.js... 
 ```
