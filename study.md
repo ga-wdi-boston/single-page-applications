@@ -25,7 +25,9 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Defined as 'Single-page-application', SPA is a newer idea that an application's layout and center of operations is all based on one page. By operations I mean data requests, data receipts, web-hosting, responsive design, logic and event driven code. This is done primarily through AJAX and modern design/layout languages. The term is slightly misleading, and while SPAs are involve mostly client side operations, SPAs  also rely on information from servers to get the browser going.
+
+I used the given resources/readings to forumlate this answer.
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +36,7 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+Page can refer to a lot of things. The initial page the user started at, the page the user was directed to from the initial page, to the next and so on. What page means in SPA however, is the homebase, or the starting point, for an application. Before learning about pages in this study, I thought of each page as an individual, interconnected of course, but autonomous in its own respect.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +46,7 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+'View' refers to the 
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +54,7 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+Single page applications allow for responsive design that is not reliant on constant refreshing and server requests. Theoretically, once the server sends the page to the browser, the page will from then on primarily rely on client side interactions to achieve desired functionality.
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +62,5 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+AJAX and HTML5 seem to be the most notorious of the tools used by SPAs. Additionally, Jquery and newer styling languages like SASS are useufll tools used by SPAs
 ```
