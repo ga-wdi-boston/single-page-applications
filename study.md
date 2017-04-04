@@ -25,7 +25,9 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Single-Page Applications.  These are Web apps that load a single HTML page and
+dynamically update that page as the user interacts with the app.  The app may
+appear to have more than a single page, but these are know as views
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +36,7 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+a page is the text/graphics that is displayed within the browser window.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +46,12 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+Views are the “other pages” that SPAs have. The Views are HTML fragments that
+make up what the users commonly call screens or pages
+
+The router’s job is to allow the user to go from View A to View B within
+the browser by clicking some menu item
+
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +59,12 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+After that initial page load, all of the presentation logic is on the client.
+
+The client and the service are independent. You could replace the entire back
+end that runs the service, and as long as you don’t change the API, you won’t
+break the client. The reverse is also true—you can replace the entire client
+app without changing the service layer.
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +72,6 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+Web browser JavaScript frameworks, such as AngularJS, Ember.js, Meteor.js,
+ExtJS and React.  HTML, CSS, Ajax
 ```
