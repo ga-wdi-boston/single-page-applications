@@ -25,7 +25,10 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+SPA's are websites that offload most of their information/processing to the client.
+Rather than loading each page in a separate window they can reload the current view
+to have new content, and even store the content in memory to reduce traffic back to
+server.
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +37,8 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+Users think of a page as a singular block of content viewable at one time, found
+behind a single url, which is how I thought of them before this.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +48,12 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+Views in SPA's are basically what most people would think of as a "page".  I found
+a definition of view state here(https://www.codeproject.com/Articles/31344/Beginner-s-Guide-To-View-State),
+which looks to be a little outdated, but according to that it's the concept of
+storing user variables on the client.  Front end routers allow the content of
+the viewed area to change when navigated by menus while keeping other parts of the
+user interface intact.
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +61,9 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+SPA's feel more responsive, since they don't require the same load times from the
+server.  Additionally, it's easier to write them in smaller pieces, which can be
+tested individually.
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +71,6 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+The sources for this study in particular suggested angular.js and node.js as being
+the best/post prevalent.
 ```
