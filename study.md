@@ -25,7 +25,10 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A spa is a single dynami page. Rather than reloading entire pages to send them
+back to th browser, SPAs simply update single portions of a page and update the
+DOM rather than sending back the entire page. SPAs act more like an application
+rather than a webpage.
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +37,9 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+A page is what a user "sees". It's hard for me to answer this question since I have
+a background in web development. I have not thought about this from a strictly
+"user" point of view in over a decade.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +49,9 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+A view is essentially what is onscreen. A view state refers to interactions with
+aspects of the view. Such as a menu being pulled down, or other interactive
+functionality of the view itself.
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +59,10 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+Developing for the web as opposed to traditional apps have a number of advantages,
+one of the biggest being cross platform ability. This makes applications more readily
+available. I.e. you only need a browser so OS compatability are not as much of a
+a concern.
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +70,6 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+AJAX is probably the biggest coupled with JSON. Ajax iteslf is a mutation of
+javascript. 
 ```
