@@ -25,7 +25,8 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+SPA stands for Single Page Applicaiton. The term Single Page refers to the the first page - which is loaded directly from the server. This application can render multiple subsequent pages, but those will be driven via client side, as apposed to the server side.
+https://johnpapa.net/pageinspa/
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +35,8 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+traditional non-developers identify a page as somthing that is rendered upon each click / interaction on a website.
+https://johnpapa.net/pageinspa/
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +46,8 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+"Page" can be thought of in terms of views, which are essentially html fragments that make up the the screen or page that the use sees.
+https://johnpapa.net/pageinspa/
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +55,9 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+A SPA offers a more native app like experience, allowing a web based application to feel more like a desktop applicaiton. SPA allows the application the  ability to redraw any part of the UI without needing to pull multiple server roundtrip to retrieve HTML.
+http://singlepageappbook.com/goal.html
+
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +65,7 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+technologies used to vreate SPA are:
+angular,js, ember, js, extjs, React, Ajax, ... etc.
+https://en.wikipedia.org/wiki/Single-page_application
 ```
