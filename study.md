@@ -25,7 +25,8 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+An SPA is a Single Page Application. It means that the page dynamically updates itself
+without reloading the HTML "framework".
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +35,10 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+Page means each instance of a website reload and every page that is loaded when they click
+a link to non-developers. What it means in a SPA is the page that
+is initialy loaded from the single round trip to
+the server, it is the framwork.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +48,9 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+Views are anything the user sees. These can change when users click links, but the page does not do a
+full HTML reload. Only the chunk of data that is needed is sent between servers. Routers manage this chunking
+of HTML and even store and load views from a local cache.
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +58,9 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+Because the app only loads the data it needs to load it reduces round trip data transmissions between servers.
+It also offers the smoother more "modern" experience of todays apps. Also, using the dom and jquery to manipulate
+nodes makes it easier for developers to make pages more dynamic. 
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +68,6 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+Jquery, api's frameworks and AJAX, so far as I can tell, are the main tools used to create SPA's.
+Perhaps HTML5 and CSS3 can also be included in this toolbox?
 ```
