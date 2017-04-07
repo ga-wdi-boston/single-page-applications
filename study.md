@@ -25,7 +25,9 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+<!-- A SPA is defined as a single page application. In the past, web applications would have to continuously refresh the page or send you to new pages in order to be used. A SPA only has one page of HTML but the user can interact with it.
+
+https://msdn.microsoft.com/en-us/magazine/dn463786.aspx-->
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +36,9 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+<!-- In the case of SPA, you might look at it and think the "page" is what is taking up your screen while looking at a web application. Before I understood SPA, I thought different menus and login forums of SPA's were considered different pages.
+
+https://johnpapa.net/pageinspa/-->
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +48,9 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+<!-- "View" is essentially the portion HTML is making up what the users see that they might refer to as a new page or screen.
+
+https://johnpapa.net/pageinspa/-->
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +58,9 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+<!-- SPA's are more fluid and responsive. Another advantage is that is a SPA is well crafted, you can change the HTML markup without touching the code.
+
+https://msdn.microsoft.com/en-us/magazine/dn463786.aspx-->
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +68,10 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+<!-- JavaScript Frameworks
+     Ajax
+     Websockets
+     Data transport
+
+     https://en.wikipedia.org/wiki/Single-page_application-->
 ```
