@@ -25,7 +25,9 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+SPA is a web page that rely in one HTML document only, without re-directing the user to multiple pages.
+It uses Javascript to make the content responsive.
+https://msdn.microsoft.com/en-us/magazine/dn463786.aspx
 ```
 
 ## Define "page" as used by non-developers
