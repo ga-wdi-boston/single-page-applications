@@ -34,7 +34,7 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-When users say "page" they generally mean a specific page. Even when it just changes from home page to search page, users would call that a new "page."
+When users say "page" they are usually referring to an HTML page. This was my understanding as well before reading about SPAs. It's pretty cool that web applications are usually a single HTML file that loads once, and then interactions with the server through AJAX calls.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -46,7 +46,7 @@ help manage view-state?
 ```md
 When developers say "view", it means everything the user sees. You can have many views visible on one screen. How John Papa explained it - that views are HTML fragments -- really helped make this concept clear.
 
-The "router" allows the user to go from one view-state to another through events (e.g. clicking or scrolling).
+"View-states" describes the data that is represented to the user. The "router" allows the user to go from one view-state to another through events (e.g. clicking or scrolling).
 ```
 
 ## Define the advantages of an SPA over a traditional application
