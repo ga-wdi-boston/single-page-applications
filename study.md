@@ -25,7 +25,7 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+SPA stands for single-page web applications.  This means that it sits on a single page providing uder experience similar to desktop aaplications.  SPAs only interact with the server via AJAX calls after the page loads.  The page may then update the page dynamically without the need to refresh.
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +34,7 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+When I thought of page I thought of a single page design with each page containing different content.
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +44,7 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+View-state is the method that the page framework uses to preserve page and controlled values.  There are multiple different views that exist on the same page meaning it doesn't need to refresh.
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +52,7 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+More fluid user experience as the page doesn't refresh.  This is primarily it.  If thsi is your main priority then SPAs may be the may to go but if content is the priority then maybe not.  The page also tends to load slower initially and can consure your browser's navigation.
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +60,5 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+The client requests the HTML from the server initially.  Any other requests are made with AJAX and the server returns JSON.
 ```
