@@ -25,7 +25,7 @@ In your own words, define what a SPA is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A SPA is a web application or web site where after the first single page loads, it dynamically updates as the user interacts with it instead of refreshing.
 ```
 
 ## Define "page" as used by non-developers
@@ -34,7 +34,7 @@ What do users mean when they say "page"? What did you mean before your started
 your search to define SPAs?
 
 ```md
-<!-- your answer here -->
+When users say "page" they generally mean a specific page. Even when it just changes from home page to search page, users would call that a new "page."
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -44,7 +44,9 @@ what do developers mean when they say "view-state"? How do front-end "routers"
 help manage view-state?
 
 ```md
-<!-- your answer here -->
+When developers say "view", it means everything the user sees. You can have many views visible on one screen. How John Papa explained it - that views are HTML fragments -- really helped make this concept clear.
+
+The "router" allows the user to go from one view-state to another through events (e.g. clicking or scrolling).
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -52,7 +54,8 @@ help manage view-state?
 What are the advantages of a single page application over a traditional appliction?
 
 ```md
-<!-- your answer here -->
+A single page application makes the user experience much more pleasant, fluid, and responsive, since the page doesn't refresh over and over again in order to present new content.
+For the developer, creating a single page application makes it easier to separate and design each layer.
 ```
 
 ## List some technologies used to make SPA's
@@ -60,5 +63,5 @@ What are the advantages of a single page application over a traditional applicti
 What are some of the tools used to create single page applications?
 
 ```md
-<!-- your answer here -->
+Angular, Ember, Durandal, React, Aurelia, Backbone
 ```
