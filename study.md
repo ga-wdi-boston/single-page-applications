@@ -26,6 +26,8 @@ relevant sources you consulted in your search.
 
 ```md
 <!-- your answer here -->
+SPA is a single page application. It's the idea of retrieving data without having
+to refresh a webpage making the page more interactive and responsive.
 ```
 
 ## Define "page" as used by non-developers
@@ -35,6 +37,8 @@ your search to define SPAs?
 
 ```md
 <!-- your answer here -->
+The way users interpret a webpage is something along the lines of the pages of a book. When they want to reach different webpages there's usually a link in the
+form of text or an image(the link being the singal to turn the page of a book)
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
@@ -45,6 +49,10 @@ help manage view-state?
 
 ```md
 <!-- your answer here -->
+I think most developers would interpret view as what the usually can actually see
+on the browser. I'm not completely sure on this but my interpretation on the view-state refers to the different parts of the page that have
+or have not fully rendered. The routers(such as scrolling) is what is used
+to navigate between the different view-state
 ```
 
 ## Define the advantages of an SPA over a traditional application
@@ -53,6 +61,9 @@ What are the advantages of a single page application over a traditional applicti
 
 ```md
 <!-- your answer here -->
+Single page applications allow for better user experience. For example logins
+are traditionally used as a pop up window rather than being refreshed into a
+totally new page.
 ```
 
 ## List some technologies used to make SPA's
@@ -61,4 +72,5 @@ What are some of the tools used to create single page applications?
 
 ```md
 <!-- your answer here -->
+JS, Jquery, Ajax
 ```
