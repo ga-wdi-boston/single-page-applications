@@ -37,6 +37,7 @@ your search to define SPAs?
 ```md
 traditional non-developers identify a page as somthing that is rendered upon each click / interaction on a website.
 https://johnpapa.net/pageinspa/
+
 ```
 
 ## Define "view" and "view-state" within the context of SPAs
